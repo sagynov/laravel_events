@@ -21,7 +21,8 @@ Route::get('/event/create', 'EventController@create');
 Route::post('/event/store', 'EventController@store');
 Route::get('/event/{event}/attendee', 'EventController@attendee');
 Route::get('/event/{event}/rating', 'EventController@rating');
-Route::get('/event/{event}', 'EventController@edit');
+Route::get('/event/{event}/edit', 'EventController@edit');
+Route::get('/event/{event}', 'EventController@show');
 Route::patch('/event/{event}', 'EventController@update');
 
 Auth::routes();

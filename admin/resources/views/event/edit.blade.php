@@ -83,7 +83,7 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                    <session></session>
+                    <session sessions=""></session>
                         <div class="col-md-8">
                             <table class="table table-striped">
                                 <thead>
@@ -97,9 +97,36 @@
                             </table>
                         </div>
                         <div class="col-md-4">
-                            <button class="btn btn-secondary">Add session</button>
+                            <button class="btn btn-light">Add session</button>
                         </div>
                     </div>
+                    
+                    <div class="form-group col-md-8">
+                            <div class="form-group row">
+                                <label for="" class="col-form-label col-md-4">Title</label>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control">
+                                </div>     
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-form-label col-md-4">Room</label>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control">
+                                </div>     
+                            </div>
+                            <div class="form-group row">
+                                <label for="" class="col-form-label col-md-4">Speaker</label>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control">
+                                </div>     
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-6">
+                                    <button type="submit" class="btn btn-secondary">Add session</button>
+                                </div>  
+                            </div>
+                    </div>
+
                     <div class="form-group row">
                         <div class="col-md-6 offset-md-4">
                             <button type="submit" class="btn btn-success">Update event</button>
